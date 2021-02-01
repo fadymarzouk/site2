@@ -1,0 +1,44 @@
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(216, 22, 71, 0.5), rgba(46, 33, 240, 0.5)), url(vhoa0.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+nav,
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav {
+  background: #2b2f2c;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 25px;
+}
+
+nav li a {
+  color: yellow;
+}
+
+section {
+  padding: 1rem 3rem;
+}
+
+section:target {
+  background: lightyellow;
+}
